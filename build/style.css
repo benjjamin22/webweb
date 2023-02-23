@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fd;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.container {
+    border-radius: 5px;
+    overflow: hidden;
+    width: 355px;
+    height: 90%;
+}
+
+.containerr {
+    margin-top: 8%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 335px;
+    max-height: 130%;
+}
+
+.title {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 0%;
+    margin-bottom: -5%;
+    margin-top: -5%;
+}
+
+.subtitle {
+    display: inline-block;
+    margin: 0px 0 0px;
+    opacity: 0.8;
+}
+
+.header {
+    background-color: #3e57db;
+    color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 3%;
+}
+
+.header input {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 10px;
+    width: 100%;
+    margin-bottom: 0%;
+}
+
+.header input:focus {
+    outline: none;
+}
+
+.user-list {
+    background-color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 480px;
+    overflow-y: auto;
+}
+
+.user-list li {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid rgba(131, 124, 124, 0.3);
+}
+
+.user-list .user_info {
+    margin-left: 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.user-list img {
+    border-radius: 55%;
+    object-fit: cover;
+    height: 50px;
+    width: 45px;
+    display: flex;
+}
+
+.user-list .user_info h3 {
+    font-size: 15.5px;
+    margin: 0;
+}
+
+.user-list .user_info p {
+    margin-bottom: -9px;
+    font-size: 13px;
+    margin-top: -3px;
+}
+
+.user-list .user_info p1 {
+    font-size: 11px;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: red;
+    font-weight: bolder;
+}
+
+.user-list .user_info p2 {
+    font-size: 11px;
+    margin-top: 14px;
+    font-weight: bolder;
+    color: green;
+    margin-left: 1%;
+}
+
+.user-list li :not(:last-of-type) {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+}
+
+.user-list li.hide {
+    display: none;
+}
